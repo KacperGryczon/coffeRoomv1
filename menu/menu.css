@@ -1,0 +1,51 @@
+.navigation ul .menuLink{
+    color: rgba(255, 255, 255, 0.674);
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    line-height: 35px;
+}
+
+.price{
+    text-decoration: underline;
+}
+
+section{
+    background-color: rgb(253, 250, 246);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 7px 10px -14px rgba(87, 92, 140, 1);
+    height: 450px;
+    width: 320px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+h3{
+    margin-top: 10px;
+}
+section article p{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 450px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        margin: 20px 0;
+    }
+}

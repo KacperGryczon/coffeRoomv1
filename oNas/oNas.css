@@ -1,0 +1,59 @@
+body{
+    width: 100vw;
+}
+.navigation ul .oNasLink{
+    color: rgba(255, 255, 255, 0.674);
+}
+
+.mainContainer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 60px;
+}
+
+.mainContainer2 .text{
+    width: 700px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.mainContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    width: 750px;
+    height: 550px;
+    margin: 0 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 40px;
+    font-size: 1.3rem;
+    text-align: start;
+}
+
+.text h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 3rem;
+    line-break: auto;
+}
+.mainContainer1 img{
+    display: block;
+    width: 550px;
+    height: 550px;
+}
+.mainContainer2 img{
+    display: block;
+    width: 640px;
+    height: 650px;
+    margin-top: 95px;
+}
+
+.mainContainer2 .text{
+    
+    margin-left: 0px;
+}
